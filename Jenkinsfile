@@ -12,6 +12,7 @@ pipeline {
                 git credentialsId: 'github-token', url: 'https://github.com/prashanty3/laraveldevops.git'
             }
         }
+    }
 
     post {
         always {
